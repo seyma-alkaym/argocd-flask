@@ -34,4 +34,4 @@ jobs:
         
         git add manifest/deployment.yaml
         git commit -m "Update image version to workflow #${{ github.run_id }}"
-        git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.actor }}/argocd-python.git main   
+        git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.actor }}/argocd-flask.git main   
