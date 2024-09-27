@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flaskapp
-        image: seyma1km/argocd-python:v1.0
+        image: seyma1km/flask-app:11074614985
         ports:
         - containerPort: 5000
 ---
