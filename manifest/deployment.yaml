@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flaskapp
-        image: seyma1km/flask-app:11075622303
+        image: seyma1km/flask-app:11075680197
         ports:
         - containerPort: 5000
 ---
